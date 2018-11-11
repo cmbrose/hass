@@ -1,0 +1,4 @@
+light:
+  - platform: decora_wifi
+    username: !secret decora_username
+    password: !secret decora_password
