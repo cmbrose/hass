@@ -1,11 +1,3 @@
-panel_iframe:
-  configurator:
-    title: Configurator
-    icon: mdi:wrench
-    url: http://hassio.local:3218
-
-git_pull:
-
 light:
   - platform: decora_wifi
     scan_interval: 2
