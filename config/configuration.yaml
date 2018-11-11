@@ -1,1 +1,6 @@
 
+panel_iframe:
+  git_pull:
+    title: Git Pull
+    icon: mdi:wrench
+    url: http://hassio.local:8123/hassio/addon/core_git_pull
