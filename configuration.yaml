@@ -19,7 +19,9 @@ automation:
     alias: Turn on all kitchen lights when one is turned on
     trigger:
       - platform: state
-        entity_id: group.kitchen
+        entity_id:
+          - light.kitchen__island
+          - light.kitchen__sink
         from: 'off'
         to: 'on'
     action:
@@ -31,7 +33,9 @@ automation:
     alias: Turn off all kitchen lights when one is turned off
     trigger:
       - platform: state
-        entity_id: group.kitchen
+        entity_id:
+          - light.kitchen__island
+          - light.kitchen__sink
         from: 'on'
         to: 'off'
     action:
