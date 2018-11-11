@@ -6,6 +6,7 @@ panel_iframe:
 
 light:
   - platform: decora_wifi
+    scan_interval: 2
     username: !secret decora_username
     password: !secret decora_password
 
