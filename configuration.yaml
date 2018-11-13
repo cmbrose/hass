@@ -14,10 +14,10 @@ homeassistant:
   customize: !include customize.yaml
 
 panel_iframe:
-  - configurator:
-      title: Configurator
-      icon: mdi:wrench
-      url: http://hassio.local:3218
+  configurator:
+    title: Configurator
+    icon: mdi:wrench
+    url: http://hassio.local:3218
 
 # Enables the frontend
 frontend:
