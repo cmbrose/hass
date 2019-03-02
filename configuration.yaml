@@ -84,8 +84,8 @@ light:
 
 group:
   kitchen:
-    - light.kitchen__island
-    - light.kitchen__sink
+    - light.kitchen_island
+    - light.kitchen_sink
 
 automation:
   - id: kitchen_lights_on
@@ -93,8 +93,8 @@ automation:
     trigger:
       - platform: state
         entity_id:
-          - light.kitchen__island
-          - light.kitchen__sink
+          - light.kitchen_island
+          - light.kitchen_sink
         from: 'off'
         to: 'on'
     action:
@@ -107,8 +107,8 @@ automation:
     trigger:
       - platform: state
         entity_id:
-          - light.kitchen__island
-          - light.kitchen__sink
+          - light.kitchen_island
+          - light.kitchen_sink
         from: 'on'
         to: 'off'
     action:
