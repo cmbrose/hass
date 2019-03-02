@@ -69,7 +69,7 @@ panel_iframe:
   configurator:
     title: Configurator
     icon: mdi:wrench
-    url: http://hassio.local:3218
+    url: http://192.168.0.2:3218
 
 tts:
   - platform: google
